@@ -8,8 +8,7 @@ public class DarkModeImage {
 
     public static void main(String[] args) throws IOException {
         // Load the input image
-        File inputFile = new File("C:\\Users\\claytonc\\OneDrive - The Biovac Institute\\Pictures\\Saved Pictures\\Biovac - Copy.png"
-        );
+        File inputFile = new File("insert image here");
         BufferedImage image = ImageIO.read(inputFile);
 
         // Create a new image with the same dimensions as the input image
@@ -37,7 +36,7 @@ public class DarkModeImage {
         }
 
         // Save the resulting image as a new PNG file
-        File outputFile = new File("C:\\Users\\claytonc\\OneDrive - The Biovac Institute\\Pictures\\Saved Pictures\\Output.png");
+        File outputFile = new File("Output.png");
         ImageIO.write(darkImage, "png", outputFile);
     }
 }
